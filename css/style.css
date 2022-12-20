@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #041B15;
+}
+
+a{
+    text-decoration: none;
+}
+/* Uitlity Class */
+.logo{
+    width: 50px;
+}
+
+/* Navbar */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: #0c2d24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    z-index: 1;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: 12px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover{
+    color: rgba(255, 234, 0, 0.935);
+    border-radius: 5px;
+}
+
+/* Header Showcase */
+
+#showcase{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#showcase .profile-picture{
+    margin: 40px 0;
+}
+
+#showcase .showcase-content .salutation{
+    margin: 40px 0;
+    color: rgba(255, 234, 0, 0.935);
+    font-size: 16px;
+}
+
+#showcase .showcase-content .name{
+    color: #ccd6f6;
+    font-size: 72px;
+    padding: 16px 0;
+}
+
+#showcase .showcase-content .caption{
+    color: #8892b0;
+    font-size: 40px;
+}
+
+#showcase .showcase-content .brief{
+    color: #8892b0;
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+#showcase .showcase-content a{
+    color: rgba(255, 234, 0, 0.935);
+    border: 1px solid rgba(255, 234, 0, 0.935);
+    display: inline-block;
+    width: 120px;
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#showcase .showcase-content a:hover{
+    background: #103b30;
+    box-shadow: inset;
+}
+
+#about{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+/* #about .about-container{
+    display: flex;
+    justify-content: space-between;
+} */
+
+#about .about-heading{
+    color: #ccd6f6;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+#about .about-content{
+    color: #8892b0;
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+.tiidelab{
+    color: rgba(255, 234, 0, 0.935);
+}
+
+#about ul{
+    color: #8892b0;
+    list-style-type: circle;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#about ul li{
+    padding-bottom: 10px;
+}
+
+#memories{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#memories .memories-heading{
+    color: #ccd6f6;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+#memories .memories-pictures{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#experience{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#experience .experience-heading{
+    color: #ccd6f6;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+#experience .fellow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#experience .fellow .title{
+    display: flex;
+    flex-direction: column;
+}
+
+#experience .fellow .title .duration{
+    margin: 15px 0;
+}
+
+#experience .fellow .title .content{
+    margin: 10px 0;
+    color: #8892b0;
+    line-height: 24px;
+}
+
+#experience .fellow .title p{
+    color: #8892b0;
+}
+
+#project{
+    color: #fff;
+    /* width: 80%; */
+    margin: auto;
+    padding: 100px 0;
+}
+
+#experience .project-heading{
+    color: #ccd6f6;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
